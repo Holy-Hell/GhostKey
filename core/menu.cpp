@@ -2,6 +2,7 @@
 #include <iostream>
 #include <limits>
 
+#include "../tool/LOCALSPACE/localspace.hpp"
 #include "../tool/PASS/ghostkey.hpp"
 #include "../tool/WALLET/hidewallet.hpp"
 #include "./visual/banner.hpp"
@@ -48,6 +49,11 @@ void menu() {
   }
   case 2: {
     hidewallet();
+    wait_and_return_to_menu();
+    return;
+  }
+  case 3: {
+    localspace();
     wait_and_return_to_menu();
     return;
   }

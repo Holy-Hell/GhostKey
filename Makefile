@@ -6,7 +6,8 @@ SRC = main.cpp \
       core/menu.cpp \
       tool/PASS/ghostkey.cpp \
       core/visual/banner.cpp \
-      tool/WALLET/hidewallet.cpp 
+      tool/WALLET/hidewallet.cpp \
+			tool/LOCALSPACE/localspace.cpp
 
 OBJ = $(SRC:.cpp=.o)
 

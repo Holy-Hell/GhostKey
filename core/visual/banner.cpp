@@ -9,10 +9,11 @@ void print_colored(const std::string &text, const std::string &color_code) {
 
 void menu_banner() {
   print_colored(R"( 
-  [ 1 ] > HASH PASS      ! KEEP
-  [ 2 ] > HIDE WALLETS   ! PASS/HASH
-  [ 0 ] > ALL OUT PASS   ! ON                                  v1.0
-  [ 9 ] > ALL OUT WALLET ! PAPER                           EXIT: ^C
+  [ 1 ] > HASH PASS         ! KEEP
+  [ 2 ] > HIDE WALLETS      ! PASS/HASH
+  [ 3 ] > HIDE LOCAL SPACE  ! ON
+  [ 0 ] > ALL OUT PASS      ! PAPER                            v1.0
+  [ 9 ] > ALL OUT WALLET    !                              EXIT: ^C
         
   )",
                 "38;5;255");
